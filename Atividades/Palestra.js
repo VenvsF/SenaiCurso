@@ -1,24 +1,44 @@
-'use strict';
-var readlinesync = require("readline-sync");
-var atendentes = 100;
-var evento = ["Tecnologia", "Quimica", "Natureza"];
-var palestrantes = ["Carlos", "Mariana", "Otavio"];
-const DataEvento = ('2021-10-31');
-let DataAtual = ('2021-9-28');
-let SelecEvento = readlinesync.question("Selecione o evento e palestrante: ");
-    if(DataEvento<DataAtual) {}
-    else{
-        console.log("Evento ja ocorreu");
-    return};
-let Nome = readlinesync.question("Seu nome: ");  
-    if(atendentes<100){} 
-    else{
-        console.log("Evento Lotado"); 
-        return};
-let Idade = readlinesync.question("Sua idade: ");
-    if(Idade>18){} 
-    else {
-        console.log("Evento apenas para maiores de 18.");         
-       return }; 
-console.log("Cadastro Concluido!");
+//Segunda versão feita apos a aula do dia 23/09/2021
 
+'use strict';
+
+var readlinesync = require("readline-sync");
+var opcao, data, lindata, partdata, eventos, eventoins, palestra, palestrains, participantes,
+    participantesins, idade;
+var listaEvento = [],
+    listaPalestra = [],
+    listaParticipantes = [];
+const numParticipantes = 100
+
+do {
+    console.log();
+    console.log("\t--- Eventos ---");
+
+    opcao = readlinesync.question("\t Digite 1 para continuar e 0 para sair.");
+
+    if (opcao != 0) {
+        console.log("\t Bem vindo ao registro para eventos!");
+        lindata = readlinesync.question("\t Digite uma data valida (00/00/0000): ");
+        partdata = lindata.split("/");
+        data = new Date(partdata[2], partdata[1] - 1, partdata[0]);
+        if (data < new Date) {
+            console.log("Desculpe o evento ja passou.");
+            return;
+        } else;
+        eventoins = readlinesync.question("\t Digite o nome do evento: ");
+        listaEvento.push(eventoins);
+
+        palestrains = readlinesync.question("\t Insira o nome do palestrante: ");
+        listaPalestra.push(palestrains);
+
+        participantesins = readlinesync.question("\t Digite seu nome: ");
+        idade = readlinesync.question("\t Digite Sua idade: ");
+        if (idade < 18) {
+            console.log("\t Evento permitido apenas para maiores de 18!")
+            return;
+        } else
+            listaParticipantes.push(participantesins);
+        console.log("\t Inscrição completa!")
+    } else;
+
+} while (opcao != 0);
