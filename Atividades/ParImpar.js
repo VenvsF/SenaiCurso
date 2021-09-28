@@ -3,10 +3,10 @@ var readlinesync = require("readline-sync");
 
 const alunos = readlinesync.question("\t Digite o numero de alunos: ");
 
-if(alunos == 0){
+if (alunos == 0) {
     console.log("numero é zero.");
-}else if(alunos % 2 == 0 ){
+} else if (alunos % 2 == 0) {
     console.log("numero é par.");
-}else{
+} else {
     console.log("Numero é impar.");
 }
