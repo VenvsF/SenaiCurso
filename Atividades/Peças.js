@@ -6,16 +6,20 @@ const caixa = listadepeças.length;
 
 console.log("\t--- Cadastro ---");
 
-if(caixa<=10){
+if (caixa <= 10) {
     nome = readlinesync.question("\t Digite o nome da peça: ");
-        if(nome.lenght<3){
-            console.log("\t Nome muito pequeno!");
-            return;
-        }
-            peso = readlinesync.question("\t Indique o peso da peça: ");
-                if(peso<100){
-                 console.log("\t Peso insuficiente");
-                 return;  } 
-            listadepeças.push(nome)
+    if (nome.lenght < 3) {
+        console.log("\t Nome muito pequeno!");
+        return;
+    }
+    peso = readlinesync.question("\t Indique o peso da peça: ");
+    if (peso < 100) {
+        console.log("\t Peso insuficiente");
+        return;
+    }
+    listadepeças.push(nome)
 
-}else{console.log("Caixa cheia"); return; }
+} else {
+    console.log("Caixa cheia");
+    return;
+}
