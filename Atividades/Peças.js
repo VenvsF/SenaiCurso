@@ -8,7 +8,7 @@ console.log("\t--- Cadastro ---");
 
 if (caixa <= 10) {
     nome = readlinesync.question("\t Digite o nome da peça: ");
-    if (nome.lenght < 3) {
+    if (nome.length < 3) {
         console.log("\t Nome muito pequeno!");
         return;
     }
