@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--comentarios são legais-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width devide-width, initial-scale=1.0" />
+    <title>Index html</title>
+</head>
+
+<body>
+    <header>
+        <nav id="Menu">
+            <a href="index.html">Index</a> |
+            <a href="internal1.html">Textos</a> |
+            <a href="internal2.html">Listas</a> |
+            <a href="internal3.html">Tabela</a> |
+            <a href="internal4.html">Formulario</a> |
+            <a href="https://www.w3schools.com/">w3schools</a>
+        </nav>
+        <h1 style="color: rgb(135, 18, 245);">hello world!</h1>
+        <h4>&#128151;</h4>
+    </header>
+    <h1>Hey there</h1>
+    <div style="height: 25% ;overflow: hidden;"/>
+        <img src="https://braziljournal.s3.amazonaws.com/covers/a4dbc2a7-ebd4-35ea-c76b-32f703b972a9.jpg?v=1618604284"
+            alt="generic code" height="250px" width= "500px"/>
+    </div>
+    <p> Codigo generico (Provavelmente C) </p>
+    <section>
+        <h1>Seção de texto</h1>
+        <h2>A imagem aestava grande</h2>
+        <p>mas consegui mudar parando de usar porcentagem e usando pixels, uai</p>
+        <article>
+            <h3> oo o oo oo artigos</h3>
+            <p>artigos são legais</p>
+        </article>
+    </section>
+    <footer>
+        <div style="float: right;">
+            Mouse (E teclado as vezes)
+        </div>
+        <div style="float: left">
+            Teclado
+        </div>
+    </footer>
+</body>
+
+</html>
