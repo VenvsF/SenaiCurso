@@ -1,0 +1,21 @@
+#menu{
+    width: 100%;
+    height: 65px;
+    justify-content: space-between;
+    display: flex;
+    background-color: sandybrown;
+}
+
+#menu .idmenu{
+    text-decoration: solid;
+    margin: 25px 10px 0px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100%;
+    width: 100%;
+    background-color:orangered;
+}
