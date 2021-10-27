@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+table {
+    border-style: solid;
+    border-color: black;
+}
