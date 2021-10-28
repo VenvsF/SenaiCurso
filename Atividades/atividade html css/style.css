@@ -5,7 +5,7 @@
     display: flex;
     background-color:aquamarine;}
 
- .idmenu{
+.idmenu{
     margin-left: 10px;
     margin-right: 10px;
     font-size: larger;
@@ -16,4 +16,6 @@
 
 body{
     background-color: aqua;
+    border: 5px;
+    border-style: ridge;
 }
