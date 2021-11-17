@@ -1,0 +1,22 @@
+#menu{
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    display: flex;
+    background-color:aquamarine;}
+    
+    .idmenu{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: larger;
+        font-weight: bold;
+        font-style: oblique;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+body{
+        background-color: aqua;
+        border: 5px;
+        border-style: ridge;
+    }
+    
